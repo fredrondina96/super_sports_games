@@ -30,6 +30,6 @@ end
 
 step7 = (step6 / ages.count)
 
-std_dev = Math.sqrt(step7)
-
-p std_dev
+std_dev = Math.sqrt(step7).round(2)
+binding.pry
+return std_dev
